@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vgK-QJ-NrY">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -87,6 +87,13 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
                                 </buttonConfiguration>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hmJ-qT-Jnr">
+                                <rect key="frame" x="74" y="723" width="242" height="1"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="GKV-RW-qr9"/>
+                                </constraints>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2Z-er-tSn">
                                 <rect key="frame" x="20" y="751" width="350" height="42"/>
                                 <constraints>
@@ -97,13 +104,6 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
                                 </buttonConfiguration>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hmJ-qT-Jnr">
-                                <rect key="frame" x="74" y="723" width="242" height="1"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="GKV-RW-qr9"/>
-                                </constraints>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -133,6 +133,7 @@
                             <constraint firstItem="0Fn-fw-XkR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tWK-zg-d1P"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="YJB-qN-yDQ"/>
                     <connections>
                         <outlet property="inputsView" destination="X73-p6-2ic" id="Uar-5d-epM"/>
                         <outlet property="logoimageView" destination="oXK-I6-eoB" id="lSH-q4-yzG"/>
@@ -140,7 +141,54 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.46153846153846" y="97.393364928909946"/>
+            <point key="canvasLocation" x="102" y="-582"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="xOz-Xs-9nz">
+            <objects>
+                <viewController id="gRL-GM-wPd" customClass="HomeViewController" customModule="AnahuaciOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g7U-Kd-eFv">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="KAT-o2-voQ">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="810"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lrQ-3E-pfd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KAT-o2-voQ" firstAttribute="trailing" secondItem="lrQ-3E-pfd" secondAttribute="trailing" id="3av-Tv-Ozu"/>
+                            <constraint firstItem="KAT-o2-voQ" firstAttribute="top" secondItem="g7U-Kd-eFv" secondAttribute="top" id="Afg-ag-u9Z"/>
+                            <constraint firstItem="KAT-o2-voQ" firstAttribute="bottom" secondItem="lrQ-3E-pfd" secondAttribute="bottom" id="mRi-QY-gHT"/>
+                            <constraint firstItem="KAT-o2-voQ" firstAttribute="leading" secondItem="lrQ-3E-pfd" secondAttribute="leading" id="uBT-Ws-dYV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="dep-oP-0gp"/>
+                    <connections>
+                        <outlet property="practicasTableView" destination="KAT-o2-voQ" id="fHM-3S-LVc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vma-J5-SlT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-735.38461538461536" y="-582.22748815165869"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="goF-Yo-tWo">
+            <objects>
+                <navigationController id="vgK-QJ-NrY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RBX-Pn-fca">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gRL-GM-wPd" kind="relationship" relationship="rootViewController" id="CaF-hm-MnE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tcP-ad-skR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1528" y="-581"/>
         </scene>
     </scenes>
     <resources>

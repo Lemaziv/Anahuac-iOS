@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80059BF128B46FD00082AEA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80059BF028B46FD00082AEA2 /* HomeViewController.swift */; };
 		80EE0D4B28ADC40F00663B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */; };
 		80EE0D4D28ADC40F00663B29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */; };
 		80EE0D4F28ADC40F00663B29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4E28ADC40F00663B29 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80059BF028B46FD00082AEA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		80EE0D4728ADC40F00663B29 /* AnahuaciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnahuaciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */,
 				80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */,
 				80EE0D4E28ADC40F00663B29 /* ViewController.swift */,
+				80059BF028B46FD00082AEA2 /* HomeViewController.swift */,
 				80EE0D5028ADC40F00663B29 /* Main.storyboard */,
 				80EE0D5328ADC41100663B29 /* Assets.xcassets */,
 				80EE0D5528ADC41100663B29 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				80EE0D4F28ADC40F00663B29 /* ViewController.swift in Sources */,
 				80EE0D4B28ADC40F00663B29 /* AppDelegate.swift in Sources */,
 				80EE0D4D28ADC40F00663B29 /* SceneDelegate.swift in Sources */,
+				80059BF128B46FD00082AEA2 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
