@@ -7,16 +7,37 @@
 
 import UIKit
 
+class Practica{
+    var title: String
+    var segueId: String
+    
+    init(title: String, segueId: String){
+        self.title = title
+        self.segueId = segueId
+    }
+}
+
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var practicasTableView: UITableView!
-    let data: [String] = ["Login Facebook", "continuará"]
+    let data: [Practica] = [
+        Practica(title: "Login Facebook", segueId: "facebookSegue"),
+        Practica(title: "Login Netflix", segueId: "toNetflixSegue")
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         practicasTableView.dataSource = self
+        practicasTableView.delegate = self
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == data.last?.segueId{
+            let loginNetflixViewController = segue.destination as? LoginNetflixViewController
+            loginNetflixViewController?.txTitle = data.last?.title ?? ""
+        }
     }
 
 }
@@ -32,12 +53,12 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
             cell = UITableViewCell()
         }
         let item = data[indexPath.row]
-        cell?.textLabel?.text = item
+        cell?.textLabel?.text = item.title
         return cell!
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let item = data [indexPath.row]
-        print("click: \(item)")
+        performSegue(withIdentifier: item.segueId, sender: nil)
     }
 }
