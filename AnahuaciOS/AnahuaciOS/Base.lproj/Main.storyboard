@@ -170,6 +170,7 @@
                         <outlet property="practicasTableView" destination="KAT-o2-voQ" id="fHM-3S-LVc"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="facebookSegue" id="Ag4-Se-hGx"/>
                         <segue destination="KNF-lx-gdU" kind="show" identifier="toNetflixSegue" id="I65-9N-dzY"/>
+                        <segue destination="j5F-C3-jYN" kind="show" identifier="listPokemonSegue" id="eTT-z0-8iy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vma-J5-SlT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -191,6 +192,82 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tcP-ad-skR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1609" y="-280"/>
+        </scene>
+        <!--Pokemon List View Controller-->
+        <scene sceneID="2JR-je-pB1">
+            <objects>
+                <viewController id="j5F-C3-jYN" customClass="PokemonListViewController" customModule="AnahuaciOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TsF-br-pNQ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ahn-zb-3HV" userLabel="pokemonTableView">
+                                <rect key="frame" x="0.0" y="88" width="390" height="722"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R3Y-16-l7t">
+                                <rect key="frame" x="75" y="358" width="240" height="128"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="qWs-1S-Lct">
+                                        <rect key="frame" x="110" y="54" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="aA2-f9-lKt"/>
+                                    <constraint firstItem="qWs-1S-Lct" firstAttribute="centerX" secondItem="R3Y-16-l7t" secondAttribute="centerX" id="giM-cj-Kcn"/>
+                                    <constraint firstAttribute="height" constant="128" id="j7v-qs-zga"/>
+                                    <constraint firstItem="qWs-1S-Lct" firstAttribute="centerY" secondItem="R3Y-16-l7t" secondAttribute="centerY" id="r3s-LJ-nY1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8kq-Km-oXB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="R3Y-16-l7t" firstAttribute="centerX" secondItem="TsF-br-pNQ" secondAttribute="centerX" id="Fnq-Vx-KWL"/>
+                            <constraint firstItem="ahn-zb-3HV" firstAttribute="top" secondItem="8kq-Km-oXB" secondAttribute="top" id="QOt-UE-tb6"/>
+                            <constraint firstItem="ahn-zb-3HV" firstAttribute="leading" secondItem="8kq-Km-oXB" secondAttribute="leading" id="Qjo-1E-rH5"/>
+                            <constraint firstItem="ahn-zb-3HV" firstAttribute="bottom" secondItem="8kq-Km-oXB" secondAttribute="bottom" id="ZWj-Hx-SVV"/>
+                            <constraint firstItem="R3Y-16-l7t" firstAttribute="centerY" secondItem="TsF-br-pNQ" secondAttribute="centerY" id="rfY-xO-uP5"/>
+                            <constraint firstItem="ahn-zb-3HV" firstAttribute="trailing" secondItem="8kq-Km-oXB" secondAttribute="trailing" id="u8D-YV-MZX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KLz-eS-PFJ"/>
+                    <connections>
+                        <outlet property="containerLoadingView" destination="R3Y-16-l7t" id="4df-sJ-HZX"/>
+                        <outlet property="loadingIndicatorView" destination="qWs-1S-Lct" id="pGx-1W-AAU"/>
+                        <outlet property="pokemonTableView" destination="ahn-zb-3HV" id="4Ie-Yi-evd"/>
+                        <segue destination="Alr-BF-rOv" kind="show" identifier="pokemonDetailSegue" id="8OA-ZO-AlL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9qJ-az-thS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-790.76923076923072" y="424.4075829383886"/>
+        </scene>
+        <!--Pokemon Detail View Controller-->
+        <scene sceneID="G94-Sl-MjP">
+            <objects>
+                <viewController id="Alr-BF-rOv" customClass="PokemonDetailViewController" customModule="AnahuaciOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aPb-pZ-g49">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6HU-yh-nb3">
+                                <rect key="frame" x="16" y="121" width="358" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fpW-59-d0g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="BXZ-4V-Khc"/>
+                    <connections>
+                        <outlet property="pokemonImageView" destination="6HU-yh-nb3" id="Kfj-xU-OdU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j06-dc-SzB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.53846153846153" y="759.95260663507111"/>
         </scene>
         <!--LoginNetflix-->
         <scene sceneID="9gO-jz-Mc2">

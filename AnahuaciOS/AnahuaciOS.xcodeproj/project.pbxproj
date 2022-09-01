@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		80059BF128B46FD00082AEA2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80059BF028B46FD00082AEA2 /* HomeViewController.swift */; };
 		8023CED328B6FCD500087CEB /* LoginNetflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8023CED228B6FCD500087CEB /* LoginNetflixViewController.swift */; };
+		807177A228C035A8001B318D /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807177A128C035A8001B318D /* PokemonListViewController.swift */; };
+		807177A428C03FC8001B318D /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807177A328C03FC8001B318D /* PokemonDetailViewController.swift */; };
 		80EE0D4B28ADC40F00663B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */; };
 		80EE0D4D28ADC40F00663B29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */; };
 		80EE0D4F28ADC40F00663B29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4E28ADC40F00663B29 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		80059BF028B46FD00082AEA2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8023CED228B6FCD500087CEB /* LoginNetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetflixViewController.swift; sourceTree = "<group>"; };
+		807177A128C035A8001B318D /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
+		807177A328C03FC8001B318D /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
 		80EE0D4728ADC40F00663B29 /* AnahuaciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnahuaciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,9 +109,11 @@
 			children = (
 				80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */,
 				80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */,
+				807177A128C035A8001B318D /* PokemonListViewController.swift */,
 				80EE0D4E28ADC40F00663B29 /* ViewController.swift */,
 				80059BF028B46FD00082AEA2 /* HomeViewController.swift */,
 				8023CED228B6FCD500087CEB /* LoginNetflixViewController.swift */,
+				807177A328C03FC8001B318D /* PokemonDetailViewController.swift */,
 				80EE0D5028ADC40F00663B29 /* Main.storyboard */,
 				80EE0D5328ADC41100663B29 /* Assets.xcassets */,
 				80EE0D5528ADC41100663B29 /* LaunchScreen.storyboard */,
@@ -266,8 +272,10 @@
 			files = (
 				80EE0D4F28ADC40F00663B29 /* ViewController.swift in Sources */,
 				80EE0D4B28ADC40F00663B29 /* AppDelegate.swift in Sources */,
+				807177A428C03FC8001B318D /* PokemonDetailViewController.swift in Sources */,
 				80EE0D4D28ADC40F00663B29 /* SceneDelegate.swift in Sources */,
 				80059BF128B46FD00082AEA2 /* HomeViewController.swift in Sources */,
+				807177A228C035A8001B318D /* PokemonListViewController.swift in Sources */,
 				8023CED328B6FCD500087CEB /* LoginNetflixViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
