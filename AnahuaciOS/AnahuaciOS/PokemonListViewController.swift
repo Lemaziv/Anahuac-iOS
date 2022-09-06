@@ -8,18 +8,6 @@
 
 import UIKit
 
-struct PokemonList: Decodable {
-    var count: Int
-    var next: String?
-    var previous: String?
-    var results: [Pokemon]
-}
-
-struct Pokemon: Decodable {
-    var name: String
-    var url: String
-}
-
 class PokemonListViewController: UIViewController {
 
     @IBOutlet weak var loadingIndicatorView: UIActivityIndicatorView!
@@ -32,6 +20,7 @@ class PokemonListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        pokemonTableView.register(UINib(nibName: "PokemonViewCell", bundle: nil), forCellReuseIdentifier: "pokemonCell")
         pokemonTableView.dataSource = self
         pokemonTableView.delegate = self
         loadingIndicatorView.hidesWhenStopped = true
@@ -76,12 +65,12 @@ extension PokemonListViewController: UITableViewDataSource, UITableViewDelegate 
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = pokemonTableView.dequeueReusableCell(withIdentifier: "cell")
+        var cell = pokemonTableView.dequeueReusableCell(withIdentifier: "pokemonCell") as? PokemonViewCell
         if(cell == nil){
-            cell = UITableViewCell()
+            cell = PokemonViewCell()
         }
         let item = pokemons[indexPath.row]
-        cell?.textLabel?.text = item.name
+        cell?.setupView(pokemon: item)
         return cell!
     }
     

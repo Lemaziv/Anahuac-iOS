@@ -7,25 +7,6 @@
 
 import UIKit
 
-struct PokemonDetail: Decodable {
-    var base_experience: Int
-    var height: Int
-    var name: String
-    var sprites: PokemonDetailSprite
-}
-
-struct PokemonDetailSprite: Decodable {
-    var other: PokemonDetilOther
-}
-
-struct PokemonDetilOther: Decodable {
-    var home: PokemonDetailHome
-}
-
-struct PokemonDetailHome: Decodable {
-    var front_default: String
-}
-
 class PokemonDetailViewController: UIViewController {
 
     @IBOutlet weak var pokemonImageView: UIImageView!

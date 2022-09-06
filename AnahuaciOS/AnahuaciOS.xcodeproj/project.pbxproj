@@ -11,13 +11,15 @@
 		8023CED328B6FCD500087CEB /* LoginNetflixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8023CED228B6FCD500087CEB /* LoginNetflixViewController.swift */; };
 		807177A228C035A8001B318D /* PokemonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807177A128C035A8001B318D /* PokemonListViewController.swift */; };
 		807177A428C03FC8001B318D /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807177A328C03FC8001B318D /* PokemonDetailViewController.swift */; };
+		809AC7C428C6DEAD0020C29E /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AC7C328C6DEAD0020C29E /* Pokemon.swift */; };
+		809AC7C728C6DFE00020C29E /* PokemonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809AC7C528C6DFE00020C29E /* PokemonViewCell.swift */; };
+		809AC7C828C6DFE00020C29E /* PokemonViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809AC7C628C6DFE00020C29E /* PokemonViewCell.xib */; };
 		80EE0D4B28ADC40F00663B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */; };
 		80EE0D4D28ADC40F00663B29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */; };
 		80EE0D4F28ADC40F00663B29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D4E28ADC40F00663B29 /* ViewController.swift */; };
 		80EE0D5228ADC40F00663B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE0D5028ADC40F00663B29 /* Main.storyboard */; };
 		80EE0D5428ADC41100663B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EE0D5328ADC41100663B29 /* Assets.xcassets */; };
 		80EE0D5728ADC41100663B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE0D5528ADC41100663B29 /* LaunchScreen.storyboard */; };
-		80EE0D6228ADC41200663B29 /* AnahuaciOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D6128ADC41200663B29 /* AnahuaciOSTests.swift */; };
 		80EE0D6C28ADC41200663B29 /* AnahuaciOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D6B28ADC41200663B29 /* AnahuaciOSUITests.swift */; };
 		80EE0D6E28ADC41200663B29 /* AnahuaciOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE0D6D28ADC41200663B29 /* AnahuaciOSUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,9 @@
 		8023CED228B6FCD500087CEB /* LoginNetflixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetflixViewController.swift; sourceTree = "<group>"; };
 		807177A128C035A8001B318D /* PokemonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListViewController.swift; sourceTree = "<group>"; };
 		807177A328C03FC8001B318D /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
+		809AC7C328C6DEAD0020C29E /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		809AC7C528C6DFE00020C29E /* PokemonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewCell.swift; sourceTree = "<group>"; };
+		809AC7C628C6DFE00020C29E /* PokemonViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonViewCell.xib; sourceTree = "<group>"; };
 		80EE0D4728ADC40F00663B29 /* AnahuaciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnahuaciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +58,6 @@
 		80EE0D5628ADC41100663B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80EE0D5828ADC41100663B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80EE0D5D28ADC41200663B29 /* AnahuaciOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnahuaciOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		80EE0D6128ADC41200663B29 /* AnahuaciOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnahuaciOSTests.swift; sourceTree = "<group>"; };
 		80EE0D6728ADC41200663B29 /* AnahuaciOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnahuaciOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EE0D6B28ADC41200663B29 /* AnahuaciOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnahuaciOSUITests.swift; sourceTree = "<group>"; };
 		80EE0D6D28ADC41200663B29 /* AnahuaciOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnahuaciOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -84,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		809AC7C228C6DE8E0020C29E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				809AC7C328C6DEAD0020C29E /* Pokemon.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		80EE0D3E28ADC40F00663B29 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 		80EE0D4928ADC40F00663B29 /* AnahuaciOS */ = {
 			isa = PBXGroup;
 			children = (
+				809AC7C228C6DE8E0020C29E /* models */,
 				80EE0D4A28ADC40F00663B29 /* AppDelegate.swift */,
 				80EE0D4C28ADC40F00663B29 /* SceneDelegate.swift */,
 				807177A128C035A8001B318D /* PokemonListViewController.swift */,
@@ -114,6 +127,8 @@
 				80059BF028B46FD00082AEA2 /* HomeViewController.swift */,
 				8023CED228B6FCD500087CEB /* LoginNetflixViewController.swift */,
 				807177A328C03FC8001B318D /* PokemonDetailViewController.swift */,
+				809AC7C528C6DFE00020C29E /* PokemonViewCell.swift */,
+				809AC7C628C6DFE00020C29E /* PokemonViewCell.xib */,
 				80EE0D5028ADC40F00663B29 /* Main.storyboard */,
 				80EE0D5328ADC41100663B29 /* Assets.xcassets */,
 				80EE0D5528ADC41100663B29 /* LaunchScreen.storyboard */,
@@ -125,7 +140,6 @@
 		80EE0D6028ADC41200663B29 /* AnahuaciOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				80EE0D6128ADC41200663B29 /* AnahuaciOSTests.swift */,
 			);
 			path = AnahuaciOSTests;
 			sourceTree = "<group>";
@@ -243,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809AC7C828C6DFE00020C29E /* PokemonViewCell.xib in Resources */,
 				80EE0D5728ADC41100663B29 /* LaunchScreen.storyboard in Resources */,
 				80EE0D5428ADC41100663B29 /* Assets.xcassets in Resources */,
 				80EE0D5228ADC40F00663B29 /* Main.storyboard in Resources */,
@@ -271,7 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80EE0D4F28ADC40F00663B29 /* ViewController.swift in Sources */,
+				809AC7C428C6DEAD0020C29E /* Pokemon.swift in Sources */,
 				80EE0D4B28ADC40F00663B29 /* AppDelegate.swift in Sources */,
+				809AC7C728C6DFE00020C29E /* PokemonViewCell.swift in Sources */,
 				807177A428C03FC8001B318D /* PokemonDetailViewController.swift in Sources */,
 				80EE0D4D28ADC40F00663B29 /* SceneDelegate.swift in Sources */,
 				80059BF128B46FD00082AEA2 /* HomeViewController.swift in Sources */,
@@ -284,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80EE0D6228ADC41200663B29 /* AnahuaciOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
