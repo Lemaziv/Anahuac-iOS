@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80E3971D28AB38E10014F499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3971C28AB38E10014F499 /* AppDelegate.swift */; };
+		80E3971F28AB38E10014F499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3971E28AB38E10014F499 /* SceneDelegate.swift */; };
+		80E3972128AB38E10014F499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3972028AB38E10014F499 /* ViewController.swift */; };
+		80E3972428AB38E10014F499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E3972228AB38E10014F499 /* Main.storyboard */; };
+		80E3972628AB38E40014F499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E3972528AB38E40014F499 /* Assets.xcassets */; };
+		80E3972928AB38E40014F499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E3972728AB38E40014F499 /* LaunchScreen.storyboard */; };
+		80E3973428AB38E40014F499 /* HolisMunditoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3973328AB38E40014F499 /* HolisMunditoTests.swift */; };
+		80E3973E28AB38E40014F499 /* HolisMunditoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3973D28AB38E40014F499 /* HolisMunditoUITests.swift */; };
+		80E3974028AB38E40014F499 /* HolisMunditoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E3973F28AB38E40014F499 /* HolisMunditoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80E3973028AB38E40014F499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E3971128AB38E10014F499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E3971828AB38E10014F499;
+			remoteInfo = HolisMundito;
+		};
+		80E3973A28AB38E40014F499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80E3971128AB38E10014F499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80E3971828AB38E10014F499;
+			remoteInfo = HolisMundito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80E3971928AB38E10014F499 /* HolisMundito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolisMundito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3971C28AB38E10014F499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80E3971E28AB38E10014F499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		80E3972028AB38E10014F499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80E3972328AB38E10014F499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80E3972528AB38E40014F499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80E3972828AB38E40014F499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80E3972A28AB38E40014F499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E3972F28AB38E40014F499 /* HolisMunditoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolisMunditoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3973328AB38E40014F499 /* HolisMunditoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolisMunditoTests.swift; sourceTree = "<group>"; };
+		80E3973928AB38E40014F499 /* HolisMunditoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolisMunditoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3973D28AB38E40014F499 /* HolisMunditoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolisMunditoUITests.swift; sourceTree = "<group>"; };
+		80E3973F28AB38E40014F499 /* HolisMunditoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolisMunditoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80E3971628AB38E10014F499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3972C28AB38E40014F499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3973628AB38E40014F499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80E3971028AB38E10014F499 = {
+			isa = PBXGroup;
+			children = (
+				80E3971B28AB38E10014F499 /* HolisMundito */,
+				80E3973228AB38E40014F499 /* HolisMunditoTests */,
+				80E3973C28AB38E40014F499 /* HolisMunditoUITests */,
+				80E3971A28AB38E10014F499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80E3971A28AB38E10014F499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80E3971928AB38E10014F499 /* HolisMundito.app */,
+				80E3972F28AB38E40014F499 /* HolisMunditoTests.xctest */,
+				80E3973928AB38E40014F499 /* HolisMunditoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80E3971B28AB38E10014F499 /* HolisMundito */ = {
+			isa = PBXGroup;
+			children = (
+				80E3971C28AB38E10014F499 /* AppDelegate.swift */,
+				80E3971E28AB38E10014F499 /* SceneDelegate.swift */,
+				80E3972028AB38E10014F499 /* ViewController.swift */,
+				80E3972228AB38E10014F499 /* Main.storyboard */,
+				80E3972528AB38E40014F499 /* Assets.xcassets */,
+				80E3972728AB38E40014F499 /* LaunchScreen.storyboard */,
+				80E3972A28AB38E40014F499 /* Info.plist */,
+			);
+			path = HolisMundito;
+			sourceTree = "<group>";
+		};
+		80E3973228AB38E40014F499 /* HolisMunditoTests */ = {
+			isa = PBXGroup;
+			children = (
+				80E3973328AB38E40014F499 /* HolisMunditoTests.swift */,
+			);
+			path = HolisMunditoTests;
+			sourceTree = "<group>";
+		};
+		80E3973C28AB38E40014F499 /* HolisMunditoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80E3973D28AB38E40014F499 /* HolisMunditoUITests.swift */,
+				80E3973F28AB38E40014F499 /* HolisMunditoUITestsLaunchTests.swift */,
+			);
+			path = HolisMunditoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80E3971828AB38E10014F499 /* HolisMundito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E3974328AB38E40014F499 /* Build configuration list for PBXNativeTarget "HolisMundito" */;
+			buildPhases = (
+				80E3971528AB38E10014F499 /* Sources */,
+				80E3971628AB38E10014F499 /* Frameworks */,
+				80E3971728AB38E10014F499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolisMundito;
+			productName = HolisMundito;
+			productReference = 80E3971928AB38E10014F499 /* HolisMundito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80E3972E28AB38E40014F499 /* HolisMunditoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E3974628AB38E40014F499 /* Build configuration list for PBXNativeTarget "HolisMunditoTests" */;
+			buildPhases = (
+				80E3972B28AB38E40014F499 /* Sources */,
+				80E3972C28AB38E40014F499 /* Frameworks */,
+				80E3972D28AB38E40014F499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E3973128AB38E40014F499 /* PBXTargetDependency */,
+			);
+			name = HolisMunditoTests;
+			productName = HolisMunditoTests;
+			productReference = 80E3972F28AB38E40014F499 /* HolisMunditoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80E3973828AB38E40014F499 /* HolisMunditoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80E3974928AB38E40014F499 /* Build configuration list for PBXNativeTarget "HolisMunditoUITests" */;
+			buildPhases = (
+				80E3973528AB38E40014F499 /* Sources */,
+				80E3973628AB38E40014F499 /* Frameworks */,
+				80E3973728AB38E40014F499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E3973B28AB38E40014F499 /* PBXTargetDependency */,
+			);
+			name = HolisMunditoUITests;
+			productName = HolisMunditoUITests;
+			productReference = 80E3973928AB38E40014F499 /* HolisMunditoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80E3971128AB38E10014F499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					80E3971828AB38E10014F499 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					80E3972E28AB38E40014F499 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 80E3971828AB38E10014F499;
+					};
+					80E3973828AB38E40014F499 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 80E3971828AB38E10014F499;
+					};
+				};
+			};
+			buildConfigurationList = 80E3971428AB38E10014F499 /* Build configuration list for PBXProject "HolisMundito" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80E3971028AB38E10014F499;
+			productRefGroup = 80E3971A28AB38E10014F499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80E3971828AB38E10014F499 /* HolisMundito */,
+				80E3972E28AB38E40014F499 /* HolisMunditoTests */,
+				80E3973828AB38E40014F499 /* HolisMunditoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80E3971728AB38E10014F499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3972928AB38E40014F499 /* LaunchScreen.storyboard in Resources */,
+				80E3972628AB38E40014F499 /* Assets.xcassets in Resources */,
+				80E3972428AB38E10014F499 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3972D28AB38E40014F499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3973728AB38E40014F499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80E3971528AB38E10014F499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3972128AB38E10014F499 /* ViewController.swift in Sources */,
+				80E3971D28AB38E10014F499 /* AppDelegate.swift in Sources */,
+				80E3971F28AB38E10014F499 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3972B28AB38E40014F499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3973428AB38E40014F499 /* HolisMunditoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80E3973528AB38E40014F499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E3973E28AB38E40014F499 /* HolisMunditoUITests.swift in Sources */,
+				80E3974028AB38E40014F499 /* HolisMunditoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80E3973128AB38E40014F499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E3971828AB38E10014F499 /* HolisMundito */;
+			targetProxy = 80E3973028AB38E40014F499 /* PBXContainerItemProxy */;
+		};
+		80E3973B28AB38E40014F499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80E3971828AB38E10014F499 /* HolisMundito */;
+			targetProxy = 80E3973A28AB38E40014F499 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80E3972228AB38E10014F499 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E3972328AB38E10014F499 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80E3972728AB38E40014F499 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80E3972828AB38E40014F499 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80E3974128AB38E40014F499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80E3974228AB38E40014F499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80E3974428AB38E40014F499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolisMundito/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anahuac.HolisMundito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80E3974528AB38E40014F499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HolisMundito/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anahuac.HolisMundito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80E3974728AB38E40014F499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anahuac.HolisMunditoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolisMundito.app/HolisMundito";
+			};
+			name = Debug;
+		};
+		80E3974828AB38E40014F499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anahuac.HolisMunditoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolisMundito.app/HolisMundito";
+			};
+			name = Release;
+		};
+		80E3974A28AB38E40014F499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anahuac.HolisMunditoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolisMundito;
+			};
+			name = Debug;
+		};
+		80E3974B28AB38E40014F499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Anahuac.HolisMunditoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolisMundito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80E3971428AB38E10014F499 /* Build configuration list for PBXProject "HolisMundito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3974128AB38E40014F499 /* Debug */,
+				80E3974228AB38E40014F499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E3974328AB38E40014F499 /* Build configuration list for PBXNativeTarget "HolisMundito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3974428AB38E40014F499 /* Debug */,
+				80E3974528AB38E40014F499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E3974628AB38E40014F499 /* Build configuration list for PBXNativeTarget "HolisMunditoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3974728AB38E40014F499 /* Debug */,
+				80E3974828AB38E40014F499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80E3974928AB38E40014F499 /* Build configuration list for PBXNativeTarget "HolisMunditoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E3974A28AB38E40014F499 /* Debug */,
+				80E3974B28AB38E40014F499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80E3971128AB38E10014F499 /* Project object */;
+}
